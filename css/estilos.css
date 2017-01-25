@@ -1,0 +1,102 @@
+
+/*font-family: 'Oswald', sans-serif;*/
+
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.logotipo{
+	display: inline-block;
+	padding-left:150px; 
+	padding-right:150px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #003C6D;
+	margin:0;
+}
+
+.datoscabecera {
+	display: inline-block;
+	text-align: left;
+
+}
+
+.datoscabecera div{
+	display: inline-block;
+	padding-left: 40px;
+
+	
+}
+
+.alineado {
+	display: inline-block;
+	padding:5px;
+}
+
+.titulo {
+	font-size: 100px;
+	font-family: 'Oswald', sans-serif;
+
+	margin-bottom: 0;
+}
+
+.fotografias{
+	display: inline-block;
+	margin-top:100px;
+}
+
+.slogan {
+	font-size: 34px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 0;
+	line-height: 0;
+}
+
+.boton {
+	margin-bottom: 50px;
+}
+.misionvision h2 {
+	font-size: 40px;
+}
+
+.portada {
+	background-image: url("../imagenes/principal.jpg");
+	color: #1C2541;
+	padding: 90px;
+}
+
+h2 {
+	color: #3a3a3b;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	color:#6f6f6f;
+	font-size: 20px;
+}
+
+.menu, .menu2, .menu3{
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+
+.menu2 {
+	color:#3a3a3b;	
+}
+
+
+li {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+
+.sub1 {
+	font-size: 37px;
+	color:#3a3a3b;
+	font-family: 'Oswald', sans-serif;
+}
