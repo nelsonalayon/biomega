@@ -17,6 +17,21 @@ body {
 	margin:0;
 }
 
+a {
+text-decoration: none;
+color: #5D5D5D;
+}
+
+.contenedorcabecera {
+  border-bottom: 1px solid blue;
+}
+
+.remiendo {
+    height: 100px;
+    position: relative;
+    top: -126px;
+}
+
 .datoscabecera {
 	display: inline-block;
 	text-align: left; 
@@ -41,6 +56,8 @@ body {
 
 	margin-bottom: 0;
 }
+
+
 
 .fotografiaa{
 	
@@ -74,14 +91,30 @@ body {
 
 
 }
-.misionvision h2 {
+.misionvision h2, h2 {
 	font-size: 40px;
 }
 
 .portada {
 	background-image: url("../imagenes/principal.jpg");
+  background-size: cover;
 	color: #1C2541;
 	padding: 90px;
+}
+
+.sub1{
+margin-bottom: 100px;
+
+}
+
+.pseudoelemento:after {
+content:"ˇ";
+font-size: 20px;
+line-height: 16px;
+padding-top: 20px;
+position: relative;
+    top: 7px;
+    left: 5px;
 }
 
 h2 {
@@ -99,15 +132,51 @@ p {
 	margin-top: 100px;
 }
 
+
+
 .menu, .menu2, .menu3{
 	font-size: 16px;
 	font-family: 'Oswald', sans-serif;
 
 }
 
+.menu3 {
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
 
 .menu2 {
-	color:#3a3a3b;	
+	color:#3a3a3b;  	
+}
+
+.menu2 ul {
+  display:flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.menu2 li {
+  margin:0;
+   display:flex;
+  flex-direction:column;
+
+}
+
+.menu2 img {
+padding-bottom: 25px;
+border-bottom: 1px solid #575756;
+}
+
+.menu2 a {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.mapa {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 66px;
 }
 
 
@@ -119,15 +188,22 @@ li {
 
 
 .sub1 {
-	font-size: 37px;
+	font-size: 40px;
 	color:#3a3a3b;
 	font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-top: 44px;
 }
 
 .valorescorporativos {
 	width: 469px;
     padding-left: 64px;
     
+}
+
+.ubicacion {
+  display:flex;
+  justify-content:space-around;
 }
 
 /*desde aca se copio y pego el codigo de invie*/
@@ -146,7 +222,9 @@ footer {
   display: flex;
   width: 300px;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 121px;
 }
 
 .contacto img {
@@ -166,7 +244,7 @@ footer {
 
 .footer .contenedor {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
